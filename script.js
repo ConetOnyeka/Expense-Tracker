@@ -64,9 +64,9 @@ function updateValues(){
         -1
     ).toFixed(2);
 
-    balance.innerText = `$${total}`;
-    money_plus.innerText = `$${income}`;
-    money_minus.innerText = `$${expense}`;
+    balance.innerText = `N${total}`;
+    money_plus.innerText = `N${income}`;
+    money_minus.innerText = `N${expense}`;
 }
 
 //remove
